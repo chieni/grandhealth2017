@@ -1,6 +1,6 @@
 (function() {
 
-	$(document).on('click', '.appt-item', function(evt) {
+	$(document).on('click touchstart', '.appt-item', function(evt) {
 		var item = $(this);
 		var test_id = item.data('apptid');
 
@@ -9,7 +9,7 @@
 	});
 
 
-	$(document).on('click', '#appt-back', function(evt) {
+	$(document).on('click touchstart', '#appt-back', function(evt) {
 		evt.preventDefault();
 		$('body').css({'background': 'linear-gradient( rgba(217, 217, 217, 1), rgba(217, 217, 217, 1))'});
 		$('body').css('background-size', 'cover');

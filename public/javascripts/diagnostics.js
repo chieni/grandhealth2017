@@ -1,6 +1,6 @@
 (function() {
 
-	$(document).on('click', '.diag-item', function(evt) {
+	$(document).on('click touchstart', '.diag-item', function(evt) {
 		var item = $(this);
 		var test_id = item.data('testid');
 
@@ -8,7 +8,7 @@
 		// Retrieve test information
 	});
 
-	$(document).on('click', '.diag-help-btn', function(evt) {
+	$(document).on('click touchstart', '.diag-help-btn', function(evt) {
 		var item = $(this);
 		var test_id = item.data('testid');
 
@@ -16,7 +16,7 @@
 		// Retrieve test information
 	});
 
-	$(document).on('click', '#diag-back', function(evt) {
+	$(document).on('click  touchstart', '#diag-back', function(evt) {
 		evt.preventDefault();
 		$('body').css({'background': 'linear-gradient( rgba(217, 217, 217, 1), rgba(217, 217, 217, 1))'});
 		$('body').css('background-size', 'cover');
@@ -24,7 +24,7 @@
 	});
 
 
-	$(document).on('click', '#test-back', function(evt) {
+	$(document).on('click  touchstart', '#test-back', function(evt) {
 		evt.preventDefault();
 		$('body').css({'background': 'linear-gradient( rgba(217, 217, 217, 1), rgba(217, 217, 217, 1))'});
 		$('body').css('background-size', 'cover');
@@ -32,7 +32,7 @@
 	});
 
 
-	$(document).on('click', '.diag-help-contact-btn', function(evt) {
+	$(document).on('click  touchstart', '.diag-help-contact-btn', function(evt) {
 		evt.preventDefault();
 		loadPage('helpSubmitted')
 	});
