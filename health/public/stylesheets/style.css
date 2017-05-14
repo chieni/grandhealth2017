@@ -1,0 +1,182 @@
+/*
+Basics
+*/
+/*@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/Brandon_reg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque Light';
+    src: url('../fonts/Brandon_light.otf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@baseFontFamily: 'Brandon Grotesque';*/
+body {
+  font-family: 'Muli';
+  font-weight: 300;
+  color: white;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../images/table.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  color: #808080;
+}
+
+.navbar {
+  border: none;
+  width: 100%;
+  margin-bottom: 0;
+  background: linear-gradient( rgba(256, 256, 256, 0.9), rgba(256, 256, 256, 0.9) );
+}
+.nav {
+  margin-right: 5em;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+.signin-box {
+  background: linear-gradient( rgba(256, 256, 256, 0.9), rgba(256, 256, 256, 0.9) );
+  padding: 2em 4em 4em 4em;
+  margin-top: 10em;
+  border-radius: 5px;
+  color: #4D4D4D;
+  font-weight: 300;
+}
+
+.navbar-brand {
+	color: #52A3E0;
+}
+.btn{
+	color: white;
+	border-color: #52A3E0;
+	background-color: #52A3E0;
+	font-weight: 300;
+}
+
+.btn:hover {
+	color: white;
+	border-color: #478FD1;
+	background-color: #478FD1;
+	font-weight: 300;
+}
+
+.patient-box {
+  background: linear-gradient( rgba(256, 256, 256, 0.9), rgba(256, 256, 256, 0.9) );
+  padding: 2em 4em 4em 4em;
+  margin-top: 1em;
+  border-radius: 5px;
+  color: #4D4D4D;
+  font-weight: 300;
+  padding-bottom: 16em;
+  margin-bottom: 4em;
+ }
+
+.splash-txt {
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.patient-welcome {
+	font-weight: 300;
+	color: #4D4D4D;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+.patient-opt {
+	margin-top: 0.5em;
+}
+
+#appts-box {
+	color: white;
+	background-color: #E6B88A;	
+	height: 12em; 
+}
+
+#docs-box {
+	color: white;
+	background-color: #40C2A1;
+	height: 12em;
+}
+
+#diag-box {
+	color: white;
+	background-color: #52A3E0;
+	height: 12em;
+}
+
+#diag-box:hover {
+	background-color: #478FD1;
+}
+
+#docs-box:hover {
+	background-color: #36A589;
+}
+
+#appts-box:hover {
+	background-color: #B8936E;
+}
+
+.diag-item {
+	color: white;
+	background: #A64C4C;
+}
+
+.diag-item:hover {
+	background: #993333;
+}
+
+.diag-item-done {
+	color: white;
+	background-color: #5CD699;
+}
+
+.diag-item-done:hover {
+	background-color: #4EB682;
+}
+
+.diag-header {
+	color: white;
+	background-color: gray;
+}
+
+.diag-date {
+	float: right;
+}
+
+.test-name {
+	font-size: 2em;
+	color: #52A3E0;
+}
+
+.test-header {
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+.test-box {
+	padding-bottom:3em;
+}
+.back-btn {
+	font-size: 1em;
+	background-color: #52A3E0;
+	padding: 0.5em;
+	color: white;
+	width: 5em;
+	border-radius: 5px;
+}
+
+.back-btn:hover {
+	background-color: #478FD1;
+}
