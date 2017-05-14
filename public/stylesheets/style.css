@@ -229,8 +229,11 @@ h2 {
 	margin-bottom: 2em;
 }
 
-#test-back {
-
+.test-help-done {
+	padding-top: 1em;
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	color: #40C2A1;
 }
 
 

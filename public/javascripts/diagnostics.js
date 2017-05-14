@@ -32,4 +32,10 @@
 	});
 
 
+	$(document).on('click', '.diag-help-contact-btn', function(evt) {
+		evt.preventDefault();
+		loadPage('helpSubmitted')
+	});
+
+
 })();
