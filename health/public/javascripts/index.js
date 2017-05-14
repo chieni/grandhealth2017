@@ -6,6 +6,8 @@ var loadPage = function(template, data) {
 };
 
 var loadHomePage = function() {
+	$('body').css({'background': 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../images/table.jpg") no-repeat center center fixed'});
+	$('body').css('background-size', 'cover');
 	loadPage('index');
 };
 
@@ -25,8 +27,8 @@ $(document).on('click', '#home-link', function(evt) {
 
 $(document).on('click', '#sherpa-link', function(evt) {
 	evt.preventDefault();
-	$('body').css({'background': 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../images/table.jpg") no-repeat center center fixed'});
-	$('body').css('background-size', 'cover');
+	// $('body').css({'background': 'linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../images/table.jpg") no-repeat center center fixed'});
+	// $('body').css('background-size', 'cover');
 	loadHomePage();
 });
 

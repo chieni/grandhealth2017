@@ -4,7 +4,15 @@
 		var item = $(this);
 		var test_id = item.data('testid');
 
-		loadPage('testView', {test_name: "Test Name", test_expl: "Explanation"})
+		loadPage('testView', {test_name: "Test Name", test_expl: "Explanation", test_id: 1})
+		// Retrieve test information
+	});
+
+	$(document).on('click', '.diag-help-btn', function(evt) {
+		var item = $(this);
+		var test_id = item.data('testid');
+
+		loadPage('testHelpView', {test_name: "Test Name", test_expl: "Explanation", test_id: 1})
 		// Retrieve test information
 	});
 
